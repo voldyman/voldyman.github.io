@@ -1,0 +1,39 @@
+baseURL = "http://blog.tripent.net/"
+languageCode = "en-us"
+title = "Log Structured Rants"
+subtitle = "no substance, just rants"
+theme = "hugo-PaperMod"
+enableRobotsTXT = true
+
+[params]
+  defaultTheme = "auto"
+  disableThemeToggle = true
+  author = "Akshay"
+  ShowReadingTime = true
+  ShowToc = false
+  [params.homeInfoParams]
+    title = "Log Structed Rants"
+    content = "no substance, just rants"
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[menu]
+  [[menu.main]]
+    name = "@voldyman"
+    url = "https://twitter.com/voldyman"
+    weight = 1
+  [[menu.main]]
+    name = "Feed"
+    url = "/index.xml"
+    weight = 2
+  [[menu.main]]
+    name = "Archive"
+    url = "/archive"
+    weight = 5
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
