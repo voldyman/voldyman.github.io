@@ -1,4 +1,4 @@
-baseURL = "http://blog.tripent.net/"
+baseURL = "http://voldyman.github.io/"
 languageCode = "en-us"
 title = "Log Structured Rants"
 subtitle = "no substance, just rants"
@@ -25,9 +25,13 @@ enableRobotsTXT = true
     url = "https://twitter.com/voldyman"
     weight = 1
   [[menu.main]]
+    name = "Github"
+    url = "https://github.com/voldyman"
+    weight = 2
+  [[menu.main]]
     name = "Feed"
     url = "/index.xml"
-    weight = 2
+    weight = 3
   [[menu.main]]
     name = "Archive"
     url = "/archive"
