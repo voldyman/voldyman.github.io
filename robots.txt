@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://blog.tripent.net/sitemap.xml
+Sitemap: http://voldyman.github.io/sitemap.xml
