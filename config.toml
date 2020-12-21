@@ -1,4 +1,4 @@
-baseURL = "http://voldyman.github.io/"
+baseURL = "https://voldyman.github.io/"
 languageCode = "en-us"
 title = "Log Structured Rants"
 subtitle = "no substance, just rants"
